@@ -1,0 +1,10 @@
+a = float(input("შეიყვანე float ტიპის რიცხვი: "))
+b = int(input("შეიყვანე int ტიპის რიცხვი: "))
+
+print("შეკრება:", a + b)
+print("გამოკლება:", a - b)
+print("გამრავლება:", a * b)
+print("გაყოფა:", a / b)
+print("მთელი გაყოფა:", a // b)
+print("ახარისხება:", a ** b)
+print("ნაშთი (modulo):", a % b)
