@@ -1,7 +1,4 @@
-
-text = input("შეიყვანე ტექსტი: ")
-times = int(input("რამდენჯერ დავბეჭდო ტექსტი? "))
-
-print(text * times)  # ან ციკლით:
-for i in range(times):
-    print(text)
+#6) მომხმარებელს შემოატანინე ორი რიცხვი. ერთი float ტიპის, მეორე int ტიპის. და დაპრინტეთ ყველა შესაძლო მათემატიკური მოქმედება მათ შორის. (+, -, *, /, //, **, %) 
+num = int( input("22")) 
+num1 = float(input("enter num"))
+print(num + num1)
