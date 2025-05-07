@@ -1,7 +1,7 @@
 #3) მომხმარებელს შემოატანინე სიტყვა და რიცხვი. ახალ ცვლადში შეინახე ყველა ამ ასოს რიცხვზე ნამრავლი. (მაგალითად რიცვად შემოიტანა 3 ტექსტად HI. შედეგი უნდა იყოს HHHIII) # შემოატანინე სიტყვა და რიცხვი
-word = input("შეიყვანე სიტყვა: ")
-number = int(input("შეიყვანე რიცხვი: "))
-result = ""
-for letter in word:
-    result += letter * number
-print("შედეგი:", result)
+User = input("შემოიტანე სიტყვა")
+User1 = int(input("შემოიტანე რიცხვი"))
+cvladi = ""
+for i in User:
+    cvladi += i*User1
+print(cvladi)

@@ -1,8 +1,6 @@
 #6) მომხმარებელს შემოატანინეთ რიცხვი და დაპრინტე ამ რიცხვის ჩათვლით ყველაფრის ჯამი.
 number = int(input("შემოიტანე რიცხვი: "))
-
-total = 0
-for i in range(1, number + 1):
-    total += i
-
-print("ჯამი არის:", total)
+number1 = 0
+for i in range(number):
+    number1 = number1 + i
+print(number1)

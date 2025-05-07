@@ -1,7 +1,5 @@
 #4) მომხმარებელს შემოატანინეთ რიცხვი და 1-დან ამ რიცხვის ჩათვლით 5-ის გამოტოვებით ყველა რიცხვი დაპრინტეთ
 number = int(input("შემოიტანე რიცხვი: "))
 
-for i in range(1, number + 1):
-    if i == 5:
-        continue
+for i in range(1,number,5):
     print(i)
